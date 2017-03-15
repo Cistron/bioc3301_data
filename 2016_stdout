@@ -1,0 +1,33 @@
+copying sequence and map files
+g-unzipping and fixing file headers
+loading module and virtualenv
+joining paired end reads
+
+real	31m20.561s
+user	30m20.677s
+sys	0m32.555s
+removing source files
+validating mapping file
+No errors or warnings were found in mapping file.
+
+real	0m3.186s
+user	0m1.403s
+sys	0m0.377s
+splitting libraries
+
+real	30m21.115s
+user	30m7.285s
+sys	0m10.426s
+Counting sequences
+
+5228090  : slout/seqs.fna (Sequence lengths (mean +/- std): 253.2906 +/- 5.5896)
+5228090  : Total
+
+real	1m24.967s
+user	1m21.821s
+sys	0m1.918s
+Picking OTUs with open reference
+
+real	33m1.825s
+user	2m52.842s
+sys	0m8.670s

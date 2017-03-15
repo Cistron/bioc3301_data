@@ -1,0 +1,21 @@
+copying sequence and map files
+loading module and virtualenv
+splitting libraries
+
+real	46m50.305s
+user	46m13.532s
+sys	0m13.056s
+removing source files
+Counting sequences
+
+11354417  : slout/seqs.fna (Sequence lengths (mean +/- std): 251.0000 +/- 0.0000)
+11354417  : Total
+
+real	2m50.928s
+user	2m48.309s
+sys	0m1.896s
+Picking OTUs with open reference
+
+real	59m44.242s
+user	6m13.288s
+sys	0m10.148s
