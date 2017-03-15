@@ -1,0 +1,150 @@
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6784
+Num new OTUs:0
+Num failures:278892
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.0_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6819
+Num new OTUs:0
+Num failures:276339
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.1_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6931
+Num new OTUs:0
+Num failures:281812
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.2_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6829
+Num new OTUs:0
+Num failures:279088
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.3_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6863
+Num new OTUs:0
+Num failures:280339
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.4_otus.txt
+OtuPicker parameters:
+Application:uclust
+Similarity:0.97
+chimeras_retention:union
+enable_rev_strand_matching:False
+exact:False
+max_accepts:1
+max_rejects:8
+new_cluster_identifier:denovo
+next_new_cluster_number:1
+optimal:False
+output_dir:/tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_
+prefilter_identical_sequences:True
+presort_by_abundance:True
+save_uc_files:True
+stable_sort:True
+stepwords:8
+suppress_new_clusters:True
+suppress_sort:True
+word_length:8
+Reference seqs:/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+Num OTUs:6912
+Num new OTUs:0
+Num failures:280641
+Result path: /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/POTU_4BTR_/POTU_4BTR_.5_otus.txt

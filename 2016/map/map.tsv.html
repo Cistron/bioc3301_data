@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<script type="text/javascript" src="./overlib.js"></script>
+</head>
+<body bgcolor="white"> <h1>No errors or warnings detected.<br></h1><h1>Mapping file error and warning details.</h1>
+Notes for interpreting this report:
+<ul>
+    <li>Errors will be listed in red, warnings in yellow.
+    <li>Mouse over an error or warning in a cell for more details.
+    <li>Errors in the header row may mask other errors, so these should be corrected first.
+    <li>Modifications to your mapping file to fix certain issues may result in different errors. You should run <tt>validate_mapping_file.py</tt> until no errors (nor warnings, ideally) are found.
+</ul>
+<p>
+Some general rules about formatting mapping files (see <a href="http://qiime.org/documentation/file_formats.html#metadata-mapping-files">here</a> for additional details):
+<ul>
+    <li>Header characters should only contain alphanumeric and <tt>_</tt> characters only.
+    <li>Valid characters for SampleID fields are alphanumeric and <tt>.</tt> only.<br>
+    <li>Other fields allow alphanumeric and <tt>+-%./ :,;_</tt> characters.
+</ul>
+General issues with your mapping file (i.e., those that do not pertain to a particular cell) will be listed here, if any:<table border="1" cellspacing="0" cellpadding="7"><tr></tr></table><br>
+<table border="2" cellspacing="0" cellpadding="5">
+
+<tr></tr>
+<tr>
+<th>SampleID</th><th>BarcodeSequence</th><th>LinkerPrimerSequence</th><th>SampleType</th><th>Year</th><th>Month</th><th>Day</th><th>Latitude</th><th>Longitude</th><th>Description</th>
+</tr>
+
+<tr>
+<tr><th><tt>15.16.1</tt></th><th><tt>TACGAGACTGAT</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2016</tt></th><th><tt>1</tt></th><th><tt>18</tt></th><th><tt>51.524735</tt></th><th><tt>-0.131080</tt></th><th><tt>bioc3101.2015.16.1
+</tt></th></tr><tr><th><tt>15.16.2</tt></th><th><tt>TGCTGTACGGAT</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2016</tt></th><th><tt>1</tt></th><th><tt>18</tt></th><th><tt>51.524392</tt></th><th><tt>-0.131120</tt></th><th><tt>bioc3101.2015.16.2
+</tt></th></tr><tr><th><tt>15.16.3</tt></th><th><tt>TATCACCAGGTG</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2016</tt></th><th><tt>1</tt></th><th><tt>18</tt></th><th><tt>51.523861</tt></th><th><tt>-0.130600</tt></th><th><tt>bioc3101.2015.16.3
+</tt></th></tr><tr><th><tt>15.16.4</tt></th><th><tt>TTGGTCAACGAT</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2016</tt></th><th><tt>1</tt></th><th><tt>18</tt></th><th><tt>51.524309</tt></th><th><tt>-0.130543</tt></th><th><tt>bioc3101.2015.16.4
+</tt></th></tr><tr><th><tt>16.17.1</tt></th><th><tt>AGCCTTCGTCGC</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>2</tt></th><th><tt>6</tt></th><th><tt>51.524127</tt></th><th><tt>-0.130407</tt></th><th><tt>bioc3301.2016.17.1
+</tt></th></tr><tr><th><tt>16.17.2</tt></th><th><tt>TCCATACCGGAA</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>2</tt></th><th><tt>6</tt></th><th><tt>51.524102</tt></th><th><tt>-0.130661</tt></th><th><tt>bioc3301.2016.17.2
+</tt></th></tr><tr><th><tt>16.17.3</tt></th><th><tt>AGCCCTGCTACA</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>2</tt></th><th><tt>6</tt></th><th><tt>51.524355</tt></th><th><tt>-0.130789</tt></th><th><tt>bioc3301.2016.17.3
+</tt></th></tr><tr><th><tt>16.17.4</tt></th><th><tt>CCTAACGGTCCA</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>2</tt></th><th><tt>6</tt></th><th><tt>51.524586</tt></th><th><tt>-0.131266</tt></th><th><tt>bioc3301.2016.17.4
+</tt></th></tr><tr><th><tt>16.17.5</tt></th><th><tt>CGCGCCTTAAAC</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>1</tt></th><th><tt>30</tt></th><th><tt>51.524546</tt></th><th><tt>-0.130894</tt></th><th><tt>bioc3301.2016.17.5
+</tt></th></tr><tr><th><tt>16.17.6</tt></th><th><tt>TATGGTACCCAG</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>1</tt></th><th><tt>30</tt></th><th><tt>51.524224</tt></th><th><tt>-0.131111</tt></th><th><tt>bioc3301.2016.17.6
+</tt></th></tr><tr><th><tt>16.17.7</tt></th><th><tt>TACAATATCTGT</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>1</tt></th><th><tt>30</tt></th><th><tt>51.523972</tt></th><th><tt>-0.130877</tt></th><th><tt>bioc3301.2016.17.7
+</tt></th></tr><tr><th><tt>16.17.8</tt></th><th><tt>AATTTAGGTAGG</tt></th><th><tt>TATGGTAATTGTGTGYCAGCMGCCGCGGTAA</tt></th><th><tt>soil</tt></th><th><tt>2017</tt></th><th><tt>1</tt></th><th><tt>30</tt></th><th><tt>51.524363</tt></th><th><tt>-0.131291</tt></th><th><tt>bioc3301.2016.17.8
+</tt></th></tr>
+</tr>
+</table>
+
+</body>
+</html>

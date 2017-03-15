@@ -1,0 +1,31 @@
+Input file paths
+Mapping filepath: /tmpdir/job/2587215.undefined/map.tsv (md5: d8b57559a55fb10e0b5cc476c1a47bea)
+Sequence read filepath: /tmpdir/job/2587215.undefined/fastq-join_joined/fastqjoin.join.fastq (md5: f9c9a2fcef71b597f3682c9e621c4ad3)
+Barcode read filepath: /tmpdir/job/2587215.undefined/fastq-join_joined/fastqjoin.join_barcodes.fastq (md5: 11a8645b28085351924c487575c77418)
+
+Quality filter results
+Total number of input sequences: 13280979
+Barcode not in mapping file: 6243963
+Read too short after quality truncation: 274
+Count of N characters exceeds limit: 1808652
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 253.00
+15.16.1	2085667
+15.16.2	1420164
+15.16.3	1164326
+15.16.4	557933
+16.17.8	0
+16.17.7	0
+16.17.6	0
+16.17.5	0
+16.17.4	0
+16.17.3	0
+16.17.2	0
+16.17.1	0
+
+Total number seqs written	5228090
+---
+

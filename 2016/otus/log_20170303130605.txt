@@ -1,0 +1,43 @@
+Logging started at 13:06:05 on 03 Mar 2017
+QIIME version: 1.9.1
+
+qiime_config values:
+pick_otus_reference_seqs_fp	/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmpdir/job/2587215.undefined/
+blastall_fp	blastall
+seconds_to_sleep	1
+
+parameter file values:
+parallel:jobs_to_start	6
+
+Input file md5 sums:
+/tmpdir/job/2587215.undefined/slout/seqs.fna: 3f68c8cb398247c17ce5bc13155b32c2
+/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta: 50b2269712b3738afb41892bed936c29
+/home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt: 56ef15dccf2e931ec173f4f977ed649b
+
+Executing commands.
+
+# Pick OTUs command 
+parallel_pick_otus_uclust_ref.py -i /tmpdir/job/2587215.undefined/slout/seqs.fna -o /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus -r /home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta -T --jobs_to_start 6 
+
+Stdout:
+
+Stderr:
+
+# Make OTU table command 
+make_otu_table.py -i /tmpdir/job/2587215.undefined/otus/uclust_ref_picked_otus/seqs_otus.txt -t /home/sejj036/miniconda2/envs/qiime1/lib/python2.7/site-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt -o /tmpdir/job/2587215.undefined/otus/otu_table.biom 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 13:39:04 on 03 Mar 2017
